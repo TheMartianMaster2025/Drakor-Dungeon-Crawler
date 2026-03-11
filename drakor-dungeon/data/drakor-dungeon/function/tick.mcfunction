@@ -1,0 +1,1 @@
+execute in drakor-dungeon:neagi run function drakor-dungeon:tick-activate

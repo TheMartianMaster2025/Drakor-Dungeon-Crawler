@@ -1,0 +1,10 @@
+mvp:
+1 planet (neagi)
+1 class (outrider)
+1 boss?
+
+Enemies:
+    Mini Robo Spider.
+    Giant Robo Spider
+    Malf
+    

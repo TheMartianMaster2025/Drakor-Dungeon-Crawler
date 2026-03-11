@@ -1,0 +1,2 @@
+execute as @e[tag=blockMount] positioned as @s run data modify entity @s Rotation set from entity @n[tag=mount] Rotation
+execute as @e[tag=blockMount] positioned as @s unless entity @n[tag=mount,distance=..1] run kill @s

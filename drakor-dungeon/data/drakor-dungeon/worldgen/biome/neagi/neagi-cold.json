@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "minecraft:visual/cloud_color": 7908464,
+        "minecraft:visual/sky_light_color": 13565364,
+        "minecraft:visual/fog_start_distance": 3,
+        "minecraft:visual/fog_end_distance": 12,
+        "minecraft:visual/fog_color": 2655036,
+        "minecraft:visual/water_fog_color": 7470848,
+        "minecraft:audio/background_music": {
+            "modifier": "override",
+            "argument": {
+                "default": {
+                    "sound": "minecraft:ambient.cave",
+                    "min_delay": 0,
+                    "max_delay": 0
+                }
+            }
+        },
+        "minecraft:visual/star_brightness": 1,
+        "minecraft:gameplay/monsters_burn": false
+    },
+    "temperature": 0,
+    "downfall": 0,
+    "has_precipitation": false,
+    "temperature_modifier": "frozen",
+    "creature_spawn_probability": 0.25,
+    "effects": {
+        "water_color": 1048431,
+        "grass_color": 16646079,
+        "foliage_color": 16646079,
+        "dry_foliage_color": 10485750,
+        "grass_color_modifier": "none"
+    },
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:skeleton",
+                "weight": 0,
+                "minCount": 0,
+                "maxCount": 0
+            },
+            {
+                "type": "minecraft:spider",
+                "weight": 0,
+                "minCount": 0,
+                "maxCount": 0
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "carvers": [],
+    "features": []
+}
