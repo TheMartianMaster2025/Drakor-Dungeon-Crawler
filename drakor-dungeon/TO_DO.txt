@@ -4,7 +4,14 @@ mvp:
 1 boss?
 
 Enemies:
-    Mini Robo Spider.
+    Mini Robo Spider/
     Giant Robo Spider
     Malf
     
+Classes:
+    Outrider:
+        Guns
+            SMG
+        Melee
+        Abilities
+        Armor

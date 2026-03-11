@@ -1,0 +1,1 @@
+function drakor-dungeon:load/load-scoreboards

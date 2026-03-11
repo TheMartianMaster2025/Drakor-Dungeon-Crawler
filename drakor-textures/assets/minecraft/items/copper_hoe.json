@@ -1,0 +1,45 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_model_data",
+        "cases": [
+            {
+                "when": {
+                    "strings": [
+                        "smg-main"
+                    ]
+                },
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:using_item",
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "drakor-textures:item/smg-main-fire"
+                    },
+                    "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "component",
+                        "predicate": "damage",
+                        "value": {"durability": {
+                            "min": -100,
+                            "max": 1
+                        }},
+                        "on_false": {
+                            "type": "model",
+                            "model": "drakor-textures:item/smg-main"
+                        },
+                        "on_true": {
+                            "type": "model",
+                            "model": "drakor-textures:item/smg-main-empty"
+                        }
+                        }
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/copper_hoe"
+        }
+    }
+}

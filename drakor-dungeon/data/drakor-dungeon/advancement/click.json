@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+            "item": {
+                "predicates": {
+                    "minecraft:custom_data": {"isGun":true}
+            }
+            }
+        }
+    }
+    },
+    "rewards": {
+        "function": "drakor-dungeon:gun/_click"
+    }
+}

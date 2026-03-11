@@ -1,0 +1,24 @@
+{
+    "function": "minecraft:sequence",
+    "functions": [
+        {
+            "function": "minecraft:copy_components",
+            "source": "tool",
+            "include": []
+        },
+        {
+            "function": "minecraft:set_components",
+            "components": {
+                "minecraft:consumable": {
+                    "consume_seconds": 99999999,
+                    "animation": "bow"
+                }
+            }
+        },
+        {
+            "function": "minecraft:set_damage",
+            "damage": 999999,
+            "add": false
+        }
+    ]
+}
