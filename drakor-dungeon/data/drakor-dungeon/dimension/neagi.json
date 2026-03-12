@@ -10,8 +10,8 @@
                     "biome": "drakor-dungeon:neagi/neagi-default",
                     "parameters": {
                         "temperature": 0.4,
-                        "humidity": 0,
-                        "continentalness": 0,
+                        "humidity": 1,
+                        "continentalness": 2,
                         "erosion": 0,
                         "weirdness": 0,
                         "depth": 2,
@@ -21,10 +21,10 @@
                 {
                     "biome": "drakor-dungeon:neagi/neagi-cold",
                     "parameters": {
-                        "temperature": 0,
-                        "humidity": 0,
-                        "continentalness": 0,
-                        "erosion": 0,
+                        "temperature": -0.8,
+                        "humidity": 0.2,
+                        "continentalness": -1,
+                        "erosion": 1,
                         "weirdness": 0,
                         "depth": -2,
                         "offset": 0

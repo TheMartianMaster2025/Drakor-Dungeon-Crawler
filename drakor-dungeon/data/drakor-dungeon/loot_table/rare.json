@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "entries": [{
+                "type": "item",
+                "name": "purple_dye",
+                "functions": [
+                    {"function": "set_components",
+                    "components": {
+                        "custom_data": {"isGun":true,
+                        "gun":{
+                        "cooldown":2,"auto":true,"reload":60,"spread":0.5,"count":1,"scale":0.05,"projectile":"arrow","pitch":1.2,"volume":0.3,"particle":"flash{color:-1}"}
+                        },
+                        "max_damage":50,
+                        "use_cooldown":{"seconds":0.9},
+                        "consumable":{"animation":"bow","consume_seconds":99999999},
+                        "max_stack_size":1,
+                        "item_model":"copper_hoe",
+                        "custom_name":"SMG",
+                        "custom_model_data":{"strings":["smg-main"]}
+                    }}
+                ]
+            },
+            {
+                "type": "item",
+                "name": "purple_dye",
+                "functions": [
+                    {"function": "set_components",
+                    "components": {
+                        "custom_data": {"isGun":true,
+                        "gun":{
+                        "cooldown":25,"auto":true,"reload":110,"spread":0.65,"count":5,"scale":0.055,"projectile":"arrow","pitch":0.6,"volume":2.3,"particle":"flash{color:-7060465}"}
+                        },
+                        "max_damage":8,
+                        "use_cooldown":{"seconds":0.9},
+                        "consumable":{"animation":"bow","consume_seconds":99999999},
+                        "max_stack_size":1,
+                        "item_model":"copper_hoe",
+                        "custom_name":"Shotgun",
+                        "custom_model_data":{"strings":["shotgun-main"]}
+                    }}
+                ]
+            }],
+            "rolls": 2
+        }
+    ]
+}

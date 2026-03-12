@@ -35,15 +35,21 @@
         "monster": [
             {
                 "type": "minecraft:skeleton",
-                "weight": 0,
-                "minCount": 0,
-                "maxCount": 0
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 5
             },
             {
                 "type": "minecraft:spider",
-                "weight": 0,
-                "minCount": 0,
-                "maxCount": 0
+                "weight": 4,
+                "minCount": 1,
+                "maxCount": 12
+            },
+            {
+                "type": "minecraft:silverfish",
+                "weight": 100,
+                "minCount": 3,
+                "maxCount": 15
             }
         ]
     },
