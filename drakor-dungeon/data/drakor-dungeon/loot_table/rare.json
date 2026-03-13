@@ -9,14 +9,14 @@
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
-                        "cooldown":2,"auto":true,"reload":60,"spread":0.5,"count":1,"scale":0.05,"projectile":"arrow","pitch":1.2,"volume":0.3,"particle":"flash{color:-1}"}
+                        "cooldown":3,"auto":true,"reload":70,"spread":0.4,"count":1,"scale":0.055,"projectile":"arrow","pitch":1.1,"volume":0.6,"particle":"flash{color:-1}"}
                         },
-                        "max_damage":50,
+                        "max_damage":30,
                         "use_cooldown":{"seconds":0.9},
                         "consumable":{"animation":"bow","consume_seconds":99999999},
                         "max_stack_size":1,
                         "item_model":"copper_hoe",
-                        "custom_name":"SMG",
+                        "custom_name":{"text":"SMG","color": "blue"},
                         "custom_model_data":{"strings":["smg-main"]}
                     }}
                 ]
@@ -29,14 +29,14 @@
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
-                        "cooldown":25,"auto":true,"reload":110,"spread":0.65,"count":5,"scale":0.055,"projectile":"arrow","pitch":0.6,"volume":2.3,"particle":"flash{color:-7060465}"}
+                        "cooldown":30,"auto":false,"reload":100,"spread":0.35,"count":4,"scale":0.06,"projectile":"arrow","pitch":0.5,"volume":2.3,"particle":"flash{color:-7060465}"}
                         },
                         "max_damage":8,
                         "use_cooldown":{"seconds":0.9},
                         "consumable":{"animation":"bow","consume_seconds":99999999},
                         "max_stack_size":1,
                         "item_model":"copper_hoe",
-                        "custom_name":"Shotgun",
+                        "custom_name":{"text":"Shotgun","color": "blue"},
                         "custom_model_data":{"strings":["shotgun-main"]}
                     }}
                 ]

@@ -29,7 +29,7 @@
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
-                        "cooldown":25,"auto":true,"reload":110,"spread":0.65,"count":5,"scale":0.055,"projectile":"arrow","pitch":0.6,"volume":2.3,"particle":"flash{color:-7060465}"}
+                        "cooldown":25,"auto":false,"reload":90,"spread":0.65,"count":5,"scale":0.055,"projectile":"arrow","pitch":0.6,"volume":2.3,"particle":"flash{color:-7060465}"}
                         },
                         "max_damage":8,
                         "use_cooldown":{"seconds":0.9},

@@ -1,0 +1,68 @@
+{
+    "fallback": "empty",
+    "elements": [
+        {
+            "weight": 12,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "location": "drakor-dungeon:neagi/city/street1",
+            "processors": []
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "location": "drakor-dungeon:neagi/city/street2",
+            "processors": []
+            }
+        },
+        {
+            "weight": 9,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "location": "drakor-dungeon:neagi/city/street3",
+            "processors": []
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "terrain_matching",
+            "location": "drakor-dungeon:neagi/city/street4",
+            "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "drakor-dungeon:neagi/city/street1",
+            "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "drakor-dungeon:neagi/city/street2",
+            "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "drakor-dungeon:neagi/city/street3",
+            "processors": []
+            }
+        }
+    ]
+}

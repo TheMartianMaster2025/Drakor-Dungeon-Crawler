@@ -1,0 +1,18 @@
+{
+    "ambient_light": 0.2,
+    "has_skylight": false,
+    "coordinate_scale": 1,
+    "has_ceiling": false,
+    "height": 2032,
+    "infiniburn": "#air",
+    "logical_height": 2032,
+    "min_y": -64,
+    "monster_spawn_block_light_limit": 15,
+    "monster_spawn_light_level": 0,
+    "attributes": {
+    },
+    "cardinal_light": "default",
+    "has_fixed_time": false,
+    "skybox": "overworld",
+    "timelines": ["day"]
+}

@@ -1,11 +1,11 @@
 {
     "attributes": {
-        "minecraft:visual/cloud_color": 7908464,
-        "minecraft:visual/sky_light_color": 13565364,
-        "minecraft:visual/fog_start_distance": 3,
-        "minecraft:visual/fog_end_distance": 12,
-        "minecraft:visual/fog_color": 2655036,
-        "minecraft:visual/water_fog_color": 7470848,
+        "minecraft:visual/cloud_color": 2090839152,
+        "minecraft:visual/sky_light_color": 15596980,
+        "minecraft:visual/fog_start_distance": 1,
+        "minecraft:visual/fog_end_distance": 3,
+        "minecraft:visual/fog_color": 7308072,
+        "minecraft:visual/water_fog_color": 13368389,
         "minecraft:audio/background_music": {
             "modifier": "override",
             "argument": {
@@ -21,14 +21,14 @@
     },
     "temperature": 0,
     "downfall": 0,
-    "has_precipitation": true,
-    "temperature_modifier": "frozen",
-    "creature_spawn_probability": 0.25,
+    "has_precipitation": false,
+    "temperature_modifier": "none",
+    "creature_spawn_probability": 0.5,
     "effects": {
-        "water_color": 1048431,
-        "grass_color": 16646079,
-        "foliage_color": 16646079,
-        "dry_foliage_color": 10485750,
+        "water_color": 12582671,
+        "grass_color": 16772799,
+        "foliage_color": 16776895,
+        "dry_foliage_color": 15073183,
         "grass_color_modifier": "none"
     },
     "spawners": {

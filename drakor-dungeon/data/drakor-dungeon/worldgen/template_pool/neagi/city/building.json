@@ -1,0 +1,32 @@
+{
+    "fallback": "empty",
+    "elements": [
+        {
+            "weight": 6,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "drakor-dungeon:neagi/city/office1",
+            "processors": []
+            }
+        },
+                {
+            "weight": 5,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "drakor-dungeon:neagi/city/office2",
+            "processors": []
+            }
+        },
+                {
+            "weight": 1,
+            "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "drakor-dungeon:neagi/city/store",
+            "processors": []
+            }
+        }
+    ]
+}

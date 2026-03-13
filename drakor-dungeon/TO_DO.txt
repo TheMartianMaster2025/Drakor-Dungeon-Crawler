@@ -5,7 +5,7 @@ mvp:
 
 Enemies:
     Mini Robo Spider/
-    Giant Robo Spider
+    Giant Robo Spider/
     Malf
     
 Classes:
@@ -15,3 +15,12 @@ Classes:
         Melee
         Abilities
         Armor
+
+Worldgen:
+    Neagi:
+        City
+        Objectives
+        Malf Fortress
+    
+NEEDS TESTING:
+    Neagi City

@@ -29,6 +29,18 @@
                         "depth": -2,
                         "offset": 0
                     }
+                },
+                {
+                    "biome": "drakor-dungeon:neagi/neagi-desert",
+                    "parameters": {
+                        "temperature": 2.0,
+                        "humidity": -1,
+                        "continentalness": 1,
+                        "erosion": -1,
+                        "weirdness": -2,
+                        "depth": 2,
+                        "offset": 1
+                    }
                 }
             ]
         }
