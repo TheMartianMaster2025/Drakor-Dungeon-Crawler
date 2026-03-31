@@ -12,6 +12,9 @@ execute as @e[tag=unyeeted] positioned as @s rotated as @s run function drakor-d
 # kill arrows
 kill @e[type=arrow,nbt={inGround:true}]
 
+# cooldown
+execute as @e[tag=mount] positioned as @s run function drakor-dungeon:mobs/cooldown
+
 scoreboard players remove @a[scores={gun-cd=1..}] gun-cd 1
 execute as @a[scores={gun-cd=0}] run advancement revoke @s only drakor-dungeon:click
 scoreboard players set @a[scores={gun-cd=0}] gun-cd -1
