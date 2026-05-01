@@ -1,5 +1,8 @@
+# player join
 execute as @a[tag=!joined] run function drakor-dungeon:player-join
 
+# mob teams
+team join malf @e[tag=team_malf,team=]
 
 # custom model enemies
 execute as @e[tag=blockMount] positioned as @s run data modify entity @s Rotation set from entity @n[tag=mount] Rotation
@@ -15,9 +18,11 @@ kill @e[type=arrow,nbt={inGround:true}]
 # cooldown
 execute as @e[tag=mount] positioned as @s run function drakor-dungeon:mobs/cooldown
 
+# gun cooldown
 scoreboard players remove @a[scores={gun-cd=1..}] gun-cd 1
 execute as @a[scores={gun-cd=0}] run advancement revoke @s only drakor-dungeon:click
 scoreboard players set @a[scores={gun-cd=0}] gun-cd -1
 
+# reload
 scoreboard players remove @e[scores={reload=1..},tag=reloader] reload 1
 execute as @e[scores={reload=0},tag=reloader] run function drakor-dungeon:gun/reload-complete-call

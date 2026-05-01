@@ -1,0 +1,1 @@
+execute in drakor-dungeon:neagi as @p[distance=0..] positioned as @r run function drakor-dungeon:mobs/neagi/patrol

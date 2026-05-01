@@ -32,3 +32,9 @@ scoreboard objectives add c4 dummy
 scoreboard objectives add pos-x dummy
 scoreboard objectives add pos-y dummy
 scoreboard objectives add pos-z dummy
+
+# game management
+scoreboard objectives add gr dummy "Run Active"
+scoreboard objectives add difficulty dummy
+scoreboard objectives add spawnRate dummy
+scoreboard objectives add planet trigger "Planet"

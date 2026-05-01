@@ -1,3 +1,25 @@
+Priorities:
+    Gamify  
+        Drakor menu
+            Shop
+            Planet Select
+        Scoring
+        Extract
+    Enemies
+        Patrols spawn surrounding player
+            Make them localize
+        Boss
+        Malf Abilities
+    Planet
+        Malf Fortress
+        Expand City
+    Player
+        Armor/Abilities
+
+
+
+
+
 mvp:
 1 planet (neagi)
 1 class (outrider)
@@ -6,8 +28,10 @@ mvp:
 Enemies:
     Mini Robo Spider/
     Giant Robo Spider/
-    Malf
-    
+    Malf /
+    Malfite /
+    Gravis Malf /
+
 Classes:
     Outrider:
         Guns
@@ -24,3 +48,6 @@ Worldgen:
     
 NEEDS TESTING:
     Neagi City
+    Patrol Spawning
+    Made it hard
+
