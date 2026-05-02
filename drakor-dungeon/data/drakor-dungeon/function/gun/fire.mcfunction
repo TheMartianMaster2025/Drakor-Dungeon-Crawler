@@ -3,7 +3,7 @@ $scoreboard players set @s c1 $(count)
 function drakor-dungeon:gun/fire-loop with storage drakor:gun current
 
 # copy data
-execute as @e[tag=newBullet] run data modify entity @s owner set from entity @p UUID
+execute as @e[tag=newBullet] run data modify entity @s Owner set from entity @p UUID
 execute as @e[tag=newBullet] run data modify entity @s Rotation set from entity @p Rotation
 execute store result score @e[tag=newBullet] cd3 run data get entity @s SelectedItem.components."minecraft:custom_data".gun.spread 50
 

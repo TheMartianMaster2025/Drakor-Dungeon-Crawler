@@ -1,7 +1,7 @@
 ## TEMP
 scoreboard players set @a planet 1
 # real
-scoreboard players set @a lives 5
+scoreboard players set @a lives 1
 scoreboard players set @a gr 1
 scoreboard objectives setdisplay sidebar score
 

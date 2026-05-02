@@ -41,8 +41,14 @@ scoreboard objectives add spawnRate dummy
 
 scoreboard objectives add planet trigger "Planet"
 scoreboard objectives add ready trigger
+
+# scoring
 scoreboard objectives add score dummy score
 scoreboard objectives add highScore dummy "High Scores"
+scoreboard players set $1 highScore 0
+scoreboard players set $2 highScore 0
+scoreboard players set $3 highScore 0
+scoreboard players set $4 highScore 0
 
 # death
 scoreboard objectives add lives dummy Lives

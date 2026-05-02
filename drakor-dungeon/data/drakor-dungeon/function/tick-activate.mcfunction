@@ -1,5 +1,6 @@
 # player join
-execute as @a[tag=!joined] run function drakor-dungeon:player-join
+execute as @a[tag=!joined] in minecraft:overworld run function drakor-dungeon:player-join
+execute as @a[scores={ready=1,gr=0}] unless entity @a[scores={ready=0}] run function drakor-dungeon:game/start
 
 # mob teams
 team join malf @e[tag=team_malf,team=]

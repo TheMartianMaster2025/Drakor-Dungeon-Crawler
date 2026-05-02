@@ -14,5 +14,6 @@
     "cardinal_light": "default",
     "has_fixed_time": false,
     "skybox": "overworld",
-    "timelines": ["day"]
+    "timelines": ["day"],
+    "has_ender_dragon_fight": false
 }
