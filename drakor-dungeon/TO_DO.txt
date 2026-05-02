@@ -4,7 +4,10 @@ Priorities:
             Shop
             Planet Select
         Scoring
-        Extract
+            High Score based
+            Beacon scores
+            Add more Objective types
+        Extract?
     Enemies
         Patrols spawn surrounding player
             Make them localize

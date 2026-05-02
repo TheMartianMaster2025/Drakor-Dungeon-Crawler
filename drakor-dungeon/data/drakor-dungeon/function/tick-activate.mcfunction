@@ -15,6 +15,8 @@ execute as @e[tag=unyeeted] positioned as @s rotated as @s run function drakor-d
 # kill arrows
 kill @e[type=arrow,nbt={inGround:true}]
 
+execute as @a[scores={deathTrigger=1..}] run function drakor-dungeon:game/death/death-trigger
+
 # cooldown
 execute as @e[tag=mount] positioned as @s run function drakor-dungeon:mobs/cooldown
 

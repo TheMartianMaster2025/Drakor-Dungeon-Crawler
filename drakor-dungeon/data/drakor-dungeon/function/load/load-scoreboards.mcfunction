@@ -1,6 +1,7 @@
 # stats
 scoreboard objectives add class dummy
 
+# UUID
 scoreboard objectives add UUID0 dummy
 scoreboard objectives add UUID1 dummy
 scoreboard objectives add UUID2 dummy
@@ -37,4 +38,19 @@ scoreboard objectives add pos-z dummy
 scoreboard objectives add gr dummy "Run Active"
 scoreboard objectives add difficulty dummy
 scoreboard objectives add spawnRate dummy
+
 scoreboard objectives add planet trigger "Planet"
+scoreboard objectives add ready trigger
+scoreboard objectives add score dummy score
+scoreboard objectives add highScore dummy "High Scores"
+
+# death
+scoreboard objectives add lives dummy Lives
+scoreboard objectives add deathTrigger deathCount
+
+# display
+scoreboard objectives setdisplay sidebar score
+scoreboard objectives setdisplay list lives
+
+
+data modify storage drakor:flag loaded.scores set value 1
