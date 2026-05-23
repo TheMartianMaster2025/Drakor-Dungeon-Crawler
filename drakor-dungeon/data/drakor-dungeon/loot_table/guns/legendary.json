@@ -1,0 +1,67 @@
+{
+    "pools": [
+        {
+            "entries": [{
+                "type": "item",
+                "name": "purple_dye",
+                "functions": [
+                    {"function": "set_components",
+                    "components": {
+                        "custom_data": {"isGun":true,
+                        "gun":{
+                        "cooldown":2,"auto":true,"reload":60,"spread":0.6,"count":2,"scale":0.05,"projectile":"arrow","pitch":1.2,"volume":0.3,"particle":"flash{color:-1}"}
+                        },
+                        "max_damage":70,
+                        "use_cooldown":{"seconds":0.9},
+                        "consumable":{"animation":"bow","consume_seconds":99999999},
+                        "max_stack_size":1,
+                        "item_model":"copper_hoe",
+                        "custom_name":{"text": "SMG","color":"light_purple"},
+                        "custom_model_data":{"strings":["smg-main"]}
+                    }}
+                ]
+            },
+            {
+                "type": "item",
+                "name": "purple_dye",
+                "functions": [
+                    {"function": "set_components",
+                    "components": {
+                        "custom_data": {"isGun":true,
+                        "gun":{
+                        "cooldown":25,"auto":false,"reload":80,"spread":0.69,"count":7,"scale":0.06,"projectile":"arrow","pitch":0.6,"volume":2.3,"particle":"flash{color:-7060465}"}
+                        },
+                        "max_damage":8,
+                        "use_cooldown":{"seconds":0.9},
+                        "consumable":{"animation":"bow","consume_seconds":99999999},
+                        "max_stack_size":1,
+                        "item_model":"copper_hoe",
+                        "custom_name":{"text": "Shotgun","color": "light_purple"},
+                        "custom_model_data":{"strings":["shotgun-main"]}
+                    }}
+                ]
+            },
+        {
+                "type": "item",
+                "name": "purple_dye",
+                "functions": [
+                    {"function": "set_components",
+                    "components": {
+                        "custom_data": {"isGun":true,
+                        "gun":{
+                        "cooldown":50,"auto":false,"reload":200,"spread":0.35,"count":8,"scale":0.06,"projectile":"fireball","pitch":1.0,"volume":3.3,"particle":"flame"}
+                        },
+                        "max_damage":3,
+                        "use_cooldown":{"seconds":0.9},
+                        "consumable":{"animation":"bow","consume_seconds":99999999},
+                        "max_stack_size":1,
+                        "item_model":"copper_hoe",
+                        "custom_name":{"text": "Rocket Launcher","color": "light_purple"},
+                        "custom_model_data":{"strings":["rocket-main"]}
+                    }}
+                ]
+            }],
+            "rolls": 3
+        }
+    ]
+}

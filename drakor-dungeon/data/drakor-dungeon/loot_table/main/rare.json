@@ -1,0 +1,10 @@
+{
+    "pools": [
+        {"entries": [{
+            "type": "loot_table",
+            "value": "drakor-dungeon:guns/rare",
+            "weight": 3
+        }],
+    "rolls": 1}
+    ]
+}

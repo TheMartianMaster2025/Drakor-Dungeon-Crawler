@@ -1,0 +1,10 @@
+{
+    "pools": [
+        {"entries": [{
+            "type": "loot_table",
+            "value": "drakor-dungeon:guns/common",
+            "weight": 3
+        }],
+    "rolls": 1}
+    ]
+}
