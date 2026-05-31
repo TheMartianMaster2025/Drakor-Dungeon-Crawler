@@ -14,7 +14,7 @@ tp @s 0 300 0
 
 # load spawn
 execute if data storage drakor:flag loaded.spawn run return fail
-setblock 3 300 0 minecraft:structure_block[mode=load]{author:"TheMartianMaster",components:{},ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"drakor-dungeon:spawn",posX:-13,posY:-13,posZ:-5,powered:0b,rotation:"NONE",seed:0L,showair:1b,showboundingbox:1b,sizeX:14,sizeY:5,sizeZ:11,strict:0b}
+setblock 3 300 0 minecraft:structure_block[mode=load]{author:"TheMartianMaster",components:{},ignoreEntities:0b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"drakor-dungeon:spawn",posX:-24,posY:-13,posZ:-24,powered:0b,rotation:"NONE",seed:0L,showair:1b,showboundingbox:1b,sizeX:14,sizeY:5,sizeZ:11,strict:0b}
 setblock 3 299 0 redstone_block
 schedule function drakor-dungeon:set-spawn 20t
 data modify storage drakor:flag loaded.spawn set value 1

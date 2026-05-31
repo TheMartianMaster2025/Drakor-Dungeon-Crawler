@@ -4,6 +4,7 @@ scoreboard players set @a planet 1
 scoreboard players set @a lives 1
 scoreboard players set @a gr 1
 scoreboard objectives setdisplay sidebar score
+difficulty hard
 
 # planet select
 execute as @a[scores={planet=1}] in drakor-dungeon:neagi run function drakor-dungeon:game/start-planet
