@@ -1,5 +1,16 @@
 # stats
 scoreboard objectives add class dummy
+scoreboard objectives add stat.lvl dummy "Level"
+scoreboard objectives add stat.str dummy "Strength"
+scoreboard objectives add stat.def dummy "Defense"
+scoreboard objectives add stat.sth dummy "Stealth"
+scoreboard objectives add stat.agl dummy "Agility"
+scoreboard objectives add stat.spd dummy "Speed"
+scoreboard objectives add stat.shd dummy "Shields"
+scoreboard objectives add stat.shc dummy "Shield Cooldown"
+scoreboard objectives add stat.hp dummy "Health"
+scoreboard objectives add stat.sr dummy "Sensor Rating"
+
 
 # UUID
 scoreboard objectives add UUID0 dummy
@@ -17,6 +28,8 @@ scoreboard objectives add ab1-cd dummy
 scoreboard objectives add ab2-cd dummy
 scoreboard objectives add ab3-cd dummy
 scoreboard objectives add ab4-cd dummy
+scoreboard objectives add abu-cd dummy
+scoreboard objectives add abs-cd dummy
 
 # constants
 scoreboard objectives add cd1 dummy

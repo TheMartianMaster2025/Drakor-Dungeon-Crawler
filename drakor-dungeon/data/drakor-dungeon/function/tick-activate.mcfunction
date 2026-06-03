@@ -26,6 +26,17 @@ scoreboard players remove @a[scores={gun-cd=1..}] gun-cd 1
 execute as @a[scores={gun-cd=0}] run advancement revoke @s only drakor-dungeon:click
 scoreboard players set @a[scores={gun-cd=0}] gun-cd -1
 
+# ability cooldown
+scoreboard players remove @a[scores={abu-cd=1..}] abu-cd 1
+execute as @a[scores={abu-cd=0}] run advancement revoke @s only drakor-dungeon:ability/click
+scoreboard players set @a[scores={abu-cd=0}] abu-cd -1
+
+# swap cooldown
+scoreboard players remove @a[scores={abs-cd=1..}] abs-cd 1
+execute as @a[scores={abs-cd=0}] run advancement revoke @s only drakor-dungeon:ability/swap
+scoreboard players set @a[scores={abs-cd=0}] abs-cd -1
+
+
 # reload
 scoreboard players remove @e[scores={reload=1..},tag=reloader] reload 1
 execute as @e[scores={reload=0},tag=reloader] run function drakor-dungeon:gun/reload-complete-call
