@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+            "item": {
+                "predicates": {
+                    "minecraft:custom_data": {"isClass":true}
+            }
+            }
+        }
+    }
+    },
+    "rewards": {
+        "function": "drakor-dungeon:class/_set-class-call"
+    }
+}

@@ -2,6 +2,9 @@
 execute as @a[tag=!joined] in minecraft:overworld run function drakor-dungeon:player-join
 execute as @a[scores={ready=1,gr=0}] unless entity @a[scores={ready=0}] run function drakor-dungeon:game/start
 
+# food
+effect give @a saturation infinite 255 true
+
 # mob teams
 team join malf @e[tag=team_malf,team=]
 
@@ -35,7 +38,6 @@ scoreboard players set @a[scores={abu-cd=0}] abu-cd -1
 scoreboard players remove @a[scores={abs-cd=1..}] abs-cd 1
 execute as @a[scores={abs-cd=0}] run advancement revoke @s only drakor-dungeon:ability/swap
 scoreboard players set @a[scores={abs-cd=0}] abs-cd -1
-
 
 # reload
 scoreboard players remove @e[scores={reload=1..},tag=reloader] reload 1

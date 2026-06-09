@@ -9,5 +9,6 @@ $execute store result storage drakor:stats shc int $(shcscale) run scoreboard pl
 $execute store result storage drakor:stats hp int $(hpscale) run scoreboard players get @s stat.hp
 $execute store result storage drakor:stats sr int $(srscale) run scoreboard players get @s stat.sr
 
+$data modify storage drakor:stats abtype set value "$(abtype)"
+
 $execute unless score @s ab$(abtype)-cd matches 1.. run function drakor-dungeon:class/$(class)/$(ability) with storage drakor:stats
-$scoreboard players set @s ab$(abtype)-cd $(cd)

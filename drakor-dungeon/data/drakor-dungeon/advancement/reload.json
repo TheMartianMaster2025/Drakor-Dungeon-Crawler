@@ -7,15 +7,7 @@
                     "flags": {
                         "is_sneaking": true
                     },
-                    "equipment": {
-                        "mainhand": {
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "isGun": true
-                                }
-                            }
-                        }
-                    }
+                    "nbt": {"SelectedItem":{"components":{"minecraft:custom_data":{"isGun":true}}}}
                 }
             }
         }

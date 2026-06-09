@@ -1,0 +1,10 @@
+scoreboard players set @s class 3
+scoreboard players set @s stat.agl 1
+scoreboard players set @s stat.def 7
+scoreboard players set @s stat.hp 6
+scoreboard players set @s stat.shc 7
+scoreboard players set @s stat.shd 4
+scoreboard players set @s stat.spd 2
+scoreboard players set @s stat.sr 2
+scoreboard players set @s stat.sth 2
+scoreboard players set @s stat.str 6
