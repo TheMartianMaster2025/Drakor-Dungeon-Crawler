@@ -5,3 +5,5 @@ scoreboard players add @s c1 1
 execute if score @s c1 matches 20.. run tag @s add captured
 execute if entity @s[tag=captured] run scoreboard players operation @a score += @p difficulty
 scoreboard players add @a difficulty 1
+
+execute if entity @s[tag=captured] run playsound block.note_block.didgeridoo

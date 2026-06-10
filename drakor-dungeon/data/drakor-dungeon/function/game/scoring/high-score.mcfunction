@@ -8,7 +8,7 @@ scoreboard players operation #3 highScore = $3 highScore
 scoreboard players operation #4 highScore = $4 highScore
 
 # set temp highest to the highest unhandled score
-execute as @a run scoreboard players operation $temp_highest c1 > @s score
+execute as @a[tag=!high] run scoreboard players operation $temp_highest c1 > @s score
 # tag the highest as handled
 execute as @a if score @s score = $temp_highest c1 run tag @s add high
 # check against each high score, ignoring once placed

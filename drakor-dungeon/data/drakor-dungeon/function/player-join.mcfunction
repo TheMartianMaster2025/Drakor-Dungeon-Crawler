@@ -8,6 +8,18 @@ execute store result score @s UUID1 run data get entity @s UUID[1]
 execute store result score @s UUID2 run data get entity @s UUID[2]
 execute store result score @s UUID3 run data get entity @s UUID[3]
 
+
+scoreboard players set @s stat.agl 1
+scoreboard players set @s stat.def 1
+scoreboard players set @s stat.hp 1
+scoreboard players set @s stat.lvl 1
+scoreboard players set @s stat.shc 20
+scoreboard players set @s stat.shd 0
+scoreboard players set @s stat.spd 1
+scoreboard players set @s stat.sr 1
+scoreboard players set @s stat.sth 1
+scoreboard players set @s stat.str 1
+
 spawnpoint @s 0 300 0
 tp @s 0 300 0
 

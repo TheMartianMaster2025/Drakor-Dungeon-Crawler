@@ -10,7 +10,9 @@ scoreboard objectives add stat.shd dummy "Shields"
 scoreboard objectives add stat.shc dummy "Shield Cooldown"
 scoreboard objectives add stat.hp dummy "Health"
 scoreboard objectives add stat.sr dummy "Sensor Rating"
-
+# shields
+scoreboard objectives add c.shd dummy "Current Shield"
+scoreboard objectives add c.shc dummy "Current Shield Cooldown"
 
 # UUID
 scoreboard objectives add UUID0 dummy
