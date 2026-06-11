@@ -1,7 +1,7 @@
-$effect give @s speed 10 $(spd) true
-$effect give @s jump_boost 10 $(agl) true
+$effect give @s resistance 10 $(def)
+$effect give @s slowness 10 $(agl)
 
-particle dripping_dripstone_water ~ ~-1 ~ 1 2 1 0.9 10
-playsound block.note_block.pling player @a ~ ~ ~ 2.0 1.3234
+particle dripping_obsidian_tear ~ ~1 ~ 2 2 2 1.9 10
+playsound block.nether_bricks.break player @a ~ ~ ~ 2.0 1.3234
 
-$scoreboard players set @s ab$(abtype)-cd 10
+$scoreboard players set @s ab$(abtype)-cd 25

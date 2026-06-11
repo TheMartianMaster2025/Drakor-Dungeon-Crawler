@@ -1,7 +1,6 @@
-$effect give @s speed 10 $(spd) true
-$effect give @s jump_boost 10 $(agl) true
+$effect give @s fire_resistance $(def) 1
 
-particle dripping_dripstone_water ~ ~-1 ~ 1 2 1 0.9 10
-playsound block.note_block.pling player @a ~ ~ ~ 2.0 1.3234
+particle falling_water ~ ~2 ~ 0.9 0.1 0.9 0.9 15
+playsound weather.rain player @a ~ ~ ~ 2.0 1.3234
 
-$scoreboard players set @s ab$(abtype)-cd 10
+$scoreboard players set @s ab$(abtype)-cd 15

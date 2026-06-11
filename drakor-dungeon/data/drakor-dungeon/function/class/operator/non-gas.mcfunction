@@ -1,7 +1,7 @@
-$effect give @s speed 10 $(spd) true
-$effect give @s jump_boost 10 $(agl) true
+$effect give @e[distance=..$(sr),type=!player] slowness 10 $(def) true
+$effect give @e[distance=..$(sr),type=!player] poison 5 $(def) true
 
-particle dripping_dripstone_water ~ ~-1 ~ 1 2 1 0.9 10
-playsound block.note_block.pling player @a ~ ~ ~ 2.0 1.3234
+$particle poof ~ ~1 ~ $(sr) 0.1 $(sr) 0.9 $(def)
+playsound entity.cat_royal.hiss player @a ~ ~ ~ 2.0 1.3234
 
-$scoreboard players set @s ab$(abtype)-cd 10
+$scoreboard players set @s ab$(abtype)-cd 20
