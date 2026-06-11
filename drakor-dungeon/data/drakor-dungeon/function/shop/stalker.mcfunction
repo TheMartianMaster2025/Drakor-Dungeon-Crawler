@@ -12,7 +12,7 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     lvlscale:0.0f,strscale:3.25,defscale:0.0,sthscale:0.0,aglscale:0.0,spdscale:0.0,shdscale:3.25,shcscale:0.0,hpscale:0.0,srscale:7.25,class:"stalker",ability:"backstab"}},\
     max_damage:200,attribute_modifiers:[{amount:3.5,id:"head.armor",type:"armor",operation:"add_value"}],\
     lore:["Ability: Psychic Backstab"],trim:{material:netherite,pattern:"eye"}},\
-    id:copper_helmet,count:1}}\
+    id:chainmail_helmet,count:1}}\
     ,\
     {buy:{components:{custom_data:{nanote:true,permanent:true}},count:54,id:arrow},sell:{components:{custom_data:{permanent:true,ability:{abtype:2,isAbility:true,name:"Orbital Strike",model:"minecraft:compass",lore:"Call down bombardment",\
     lvlscale:0.0f,strscale:0.0,defscale:0.0,sthscale:0.0,aglscale:0.0,spdscale:0.0,shdscale:3.25,shcscale:0.0,hpscale:0.0,srscale:5.25,class:"stalker",ability:"orb-strike"}},\
@@ -24,13 +24,13 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     lvlscale:0.0f,strscale:1.1,defscale:0.0,sthscale:0.0,aglscale:0.0,spdscale:0.0,shdscale:3.25,shcscale:0.0,hpscale:0.0,srscale:3.2,class:"stalker",ability:"crowd-thinner"}},\
     max_damage:200,attribute_modifiers:[{amount:4,id:"legs.armor",type:"armor",operation:"add_value"}],\
     lore:["Ability: Crowd Thinner"],trim:{material:netherite,pattern:"eye"}},\
-    id:copper_leggings,count:1}}\
+    id:chainmail_leggings,count:1}}\
     ,\
     {buy:{components:{custom_data:{nanote:true,permanent:true}},count:54,id:arrow},sell:{components:{custom_data:{permanent:true,ability:{abtype:4,isAbility:true,name:"Vanish",model:"minecraft:glass_bottle",lore:"Disappear",\
     lvlscale:0.0f,strscale:0.0,defscale:0.0,sthscale:5.0,aglscale:0.0,spdscale:0.0,shdscale:0.0,shcscale:1.5,hpscale:0.0,srscale:0.0,class:"stalker",ability:"vanish"}},\
     max_damage:200,attribute_modifiers:[{amount:3,id:"feet.armor",type:"armor",operation:"add_value"},{amount:1.25,id:"feet.speed",type:movement_speed,operation:"add_multiplied_base"}],\
     lore:["Ability: Vanish"],trim:{material:netherite,pattern:"eye"}},\
-    id:copper_boots,count:1}}\
+    id:chainmail_boots,count:1}}\
     ,\
     {buy:{components:{custom_data:{nanote:true,permanent:true}},count:40,id:arrow},sell:{id:elytra,components:{custom_data:{permanent:true}}}}\
     ,\
