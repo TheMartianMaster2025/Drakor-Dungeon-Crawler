@@ -42,3 +42,6 @@ scoreboard players set @a[scores={abs-cd=0}] abs-cd -1
 # reload
 scoreboard players remove @e[scores={reload=1..},tag=reloader] reload 1
 execute as @e[scores={reload=0},tag=reloader] run function drakor-dungeon:gun/reload-complete-call
+
+# stop
+execute positioned as @e[tag=stop] positioned as @s run tp @s ~ ~ ~

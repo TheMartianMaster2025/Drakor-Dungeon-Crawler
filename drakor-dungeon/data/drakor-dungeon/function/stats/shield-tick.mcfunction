@@ -10,9 +10,9 @@ execute if score @s c.shc matches 1.. run return fail
 scoreboard players set @s c.shd 1
 scoreboard players operation @s c.shd *= @s stat.shd
 # min 6
-scoreboard players add @s c.shd 1
+scoreboard players add @s c.shd 2
 # store
-execute store result storage drakor:shield shd int 1.0 run scoreboard players get @s c.shd
+execute store result storage drakor:shield shd int 0.5 run scoreboard players get @s c.shd
 
 
 function drakor-dungeon:stats/shield-regen with storage drakor:shield

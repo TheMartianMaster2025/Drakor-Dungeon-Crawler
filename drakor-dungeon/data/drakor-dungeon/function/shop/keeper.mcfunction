@@ -3,6 +3,11 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     custom_model_data:{strings:["keeper-token"]},custom_name:"Keeper Class"},\
     id:fire_charge,count:4}}\
     ,\
+    {buy:{components:{custom_data:{nanote:true,permanent:true}},count:64,id:arrow},sell:{id:purple_dye,components:{custom_data:{permanent:true,\
+    gun:{cooldown:0,auto:false,reload:80,spread:0.01,count:2,scale:0.01f,projectile:"arrow",pitch:0.6f,volume:0.1f,particle:"dust_plume"},isGun:true},\
+    item_model:copper_hoe,custom_name:"Focused Ire",custom_model_data:{strings:["laser-drakorian"]},\
+    max_damage:100,use_cooldown:{seconds:0.9},consumable:{animation:"bow",consume_seconds:99999999},max_stack_size:1}}}\
+    ,\
     {buy:{components:{custom_data:{nanote:true,permanent:true}},count:54,id:arrow},sell:{components:{custom_data:{permanent:true,ability:{abtype:1,isAbility:true,name:"Gravity Warp",model:"minecraft:ender_pearl",lore:"Teleport",\
     lvlscale:1.0f,strscale:0.0,defscale:0.0,sthscale:0.0,aglscale:0.0,spdscale:0.0,shdscale:0.0,shcscale:0.0,hpscale:0.0,srscale:8.5,class:"keeper",ability:"grav-warp"}},\
     max_damage:200,attribute_modifiers:[{amount:6,id:"head.armor",type:"armor",operation:"add_value"}],\
@@ -23,7 +28,7 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     ,\
     {buy:{components:{custom_data:{nanote:true,permanent:true}},count:54,id:arrow},sell:{components:{custom_data:{permanent:true,ability:{abtype:4,isAbility:true,name:"Gravity Reduction",model:"minecraft:phantom_membrane",lore:"Slow Fall and Heal",\
     lvlscale:0.0f,strscale:0.0,defscale:0.0,sthscale:0.0,aglscale:0.0,spdscale:0.0,shdscale:5.0,shcscale:0.0,hpscale:0.875,srscale:0.0,class:"keeper",ability:"grav-red"}},\
-    max_damage:200,attribute_modifiers:[{amount:3,id:"feet.armor",type:"armor",operation:"add_value"},{amount:1.24,id:"feet.speed",type:movement_speed,operation:"add_multiplied_base"}],\
+    max_damage:200,attribute_modifiers:[{amount:3,id:"feet.armor",type:"armor",operation:"add_value"},{amount:-0.21,id:"feet.speed",type:movement_speed,operation:"add_multiplied_base"}],\
     "lore":["Ability: Gravity Reduction"],trim:{material:resin,pattern:"dune"}},\
     id:diamond_boots,count:1}}\
     ,\
@@ -33,3 +38,4 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     id:fishing_rod,count:1}}\
 ]},\
 "VillagerData":{level:999,profession:"cleric",type:"taiga"}}
+

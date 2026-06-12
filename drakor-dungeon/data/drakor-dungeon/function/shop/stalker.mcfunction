@@ -28,7 +28,7 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     ,\
     {buy:{components:{custom_data:{nanote:true,permanent:true}},count:54,id:arrow},sell:{components:{custom_data:{permanent:true,ability:{abtype:4,isAbility:true,name:"Vanish",model:"minecraft:glass_bottle",lore:"Disappear",\
     lvlscale:0.0f,strscale:0.0,defscale:0.0,sthscale:5.0,aglscale:0.0,spdscale:0.0,shdscale:0.0,shcscale:1.5,hpscale:0.0,srscale:0.0,class:"stalker",ability:"vanish"}},\
-    max_damage:200,attribute_modifiers:[{amount:3,id:"feet.armor",type:"armor",operation:"add_value"},{amount:1.25,id:"feet.speed",type:movement_speed,operation:"add_multiplied_base"}],\
+    max_damage:200,attribute_modifiers:[{amount:3,id:"feet.armor",type:"armor",operation:"add_value"},{amount:1.12,id:"feet.speed",type:movement_speed,operation:"add_multiplied_base"}],\
     lore:["Ability: Vanish"],trim:{material:netherite,pattern:"eye"}},\
     id:chainmail_boots,count:1}}\
     ,\
