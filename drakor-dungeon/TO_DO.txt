@@ -1,31 +1,34 @@
 Priorities:
     Gamify  
-        Drakor menu
-            Shop
-            Planet Select
-        Scoring
-            High Score based
-            Beacon scores
+        Drakor menu /
+            Shop/
+            Planet Select/
+        Scoring/ 
+            High Score based/
+            Beacon scores/
             Add more Objective types
         Extract?
     Enemies
-        Patrols spawn surrounding player
-            Make them localize
+        Patrols spawn surrounding player/
+            Make them localize!
+                Markermaxxing- outposts on map
         Boss
         Malf Abilities
     Planet
         Malf Fortress
         Expand City
     Player
-        Armor/Abilities
+        Armor/Abilities/
 
 
-
+6/12 NOTES:
+SPECTATOR CAN CAP!!! FIXX!@!!! /
+Decrease armor cost, increase durability /
+Markermaxxing
 
 
 mvp:
 1 planet (neagi)
-1 class (outrider)
 1 boss?
 
 Enemies:
@@ -35,13 +38,6 @@ Enemies:
     Malfite /
     Gravis Malf /
 
-Classes:
-    Outrider:
-        Guns
-            SMG
-        Melee
-        Abilities
-        Armor
 
 Worldgen:
     Neagi:
@@ -53,4 +49,8 @@ NEEDS TESTING:
     Neagi City
     Patrol Spawning
     Made it hard
-
+    Classes:
+        Guns
+        Melee
+        Armor
+            Abilities

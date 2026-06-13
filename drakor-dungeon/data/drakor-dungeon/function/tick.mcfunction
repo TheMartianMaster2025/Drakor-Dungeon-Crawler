@@ -1,1 +1,2 @@
-execute in drakor-dungeon:neagi run function drakor-dungeon:tick-activate
+execute as @a unless score @s gr matches 1.. in minecraft:overworld run function drakor-dungeon:tick-activate
+execute as @a[scores={planet=1,gr=1}] in drakor-dungeon:neagi run function drakor-dungeon:tick-activate

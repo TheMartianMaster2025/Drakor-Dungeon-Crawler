@@ -1,1 +1,1 @@
-execute as @a[scores={planet=1}] in drakor-dungeon:neagi positioned as @s as @e[tag=beacon,distance=..10] run function drakor-dungeon:game/scoring/beacon
+execute as @a[scores={planet=1,gr=1}] in drakor-dungeon:neagi positioned as @s as @e[tag=beacon,distance=..10] run function drakor-dungeon:game/scoring/beacon
