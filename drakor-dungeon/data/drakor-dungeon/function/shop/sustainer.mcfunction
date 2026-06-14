@@ -3,6 +3,10 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     custom_model_data:{strings:["sustainer-token"]},custom_name:"Sustainer Class"},\
     id:fire_charge,count:5}}\  
     ,\
+    {buy:{components:{custom_data:{nanote:true,permanent:true}},count:20,id:arrow},sell:{components:{custom_data:{1up:1b},\
+    custom_model_data:{strings:["extra-life"]},custom_name:"Extra Life"},\
+    id:emerald,count:1}}\  
+    ,\
     {buy:{components:{custom_data:{nanote:true,permanent:true}},count:20,id:arrow},sell:{id:purple_dye,components:{custom_data:{permanent:true,\
     gun:{cooldown:0,auto:true,reload:60,spread:0.04,count:2,scale:0.25f,projectile:"small_fireball",pitch:0.1f,volume:0.1f,particle:"flame"},isGun:true},\
     item_model:copper_hoe,custom_name:"Flamer",custom_model_data:{strings:["flamer-drakorian"]},\

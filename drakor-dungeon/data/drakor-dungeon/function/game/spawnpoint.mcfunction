@@ -1,0 +1,1 @@
+execute as @a[scores={planet=1}] positioned as @s in drakor-dungeon:neagi run spawnpoint @s ~ ~ ~

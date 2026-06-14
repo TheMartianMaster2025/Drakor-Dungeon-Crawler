@@ -3,4 +3,5 @@ execute positioned as @p[tag=dropper] run setblock ~2 300 ~ minecraft:structure_
 execute positioned as @p[tag=dropper] run setblock ~2 299 ~ redstone_block
 execute positioned as @p[tag=dropper] run tp @p ~-1 300 ~
 tp @a @p[tag=dropper]
-execute positioned as @p[tag=dropper] run spawnpoint @a ~-1 300 ~
+execute positioned as @p[tag=dropper] run spawnpoint @a ~ ~ ~
+schedule function drakor-dungeon:game/spawnpoint 30t

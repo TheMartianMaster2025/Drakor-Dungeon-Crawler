@@ -4,7 +4,7 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     id:fire_charge,count:4}}\
     ,\
     {buy:{components:{custom_data:{nanote:true,permanent:true}},count:20,id:arrow},sell:{id:purple_dye,components:{custom_data:{permanent:true,\
-    gun:{cooldown:0,auto:true,reload:80,spread:0.03,count:2,scale:0.01f,projectile:"arrow",pitch:0.6f,volume:0.1f,particle:"flame"},isGun:true},\
+    gun:{cooldown:0,auto:true,reload:80,spread:0.03,count:2,scale:0.21f,projectile:"arrow",pitch:0.6f,volume:0.1f,particle:"flame"},isGun:true},\
     item_model:copper_hoe,custom_name:"Focused Ire",custom_model_data:{strings:["laser-drakorian"]},\
     max_damage:100,use_cooldown:{seconds:0.9},consumable:{animation:"bow",consume_seconds:99999999},max_stack_size:1}}}\
     ,\

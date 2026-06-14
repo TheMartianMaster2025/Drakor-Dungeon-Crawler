@@ -3,7 +3,7 @@
         {
             "entries": [{
                 "type": "item",
-                "name": "purple_dye",
+                "name": "blue_dye",
                 "functions": [
                     {"function": "set_components",
                     "components": {
@@ -24,7 +24,7 @@
             },
             {
                 "type": "item",
-                "name": "purple_dye",
+                "name": "blue_dye",
                 "functions": [
                     {"function": "set_components",
                     "components": {
@@ -45,7 +45,7 @@
             },
                 {
                 "type": "item",
-                "name": "purple_dye",
+                "name": "blue_dye",
                 "functions": [
                     {"function": "set_components",
                     "components": {

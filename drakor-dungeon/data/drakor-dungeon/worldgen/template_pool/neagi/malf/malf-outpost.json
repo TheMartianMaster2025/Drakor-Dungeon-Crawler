@@ -1,0 +1,11 @@
+{
+    "fallback": "empty",
+    "elements": [
+        {
+            "element": {"element_type": "single_pool_element",
+            "location": "drakor-dungeon:neagi/malf/outpost",
+            "projection": "rigid",
+            "processors": "empty"},
+        "weight": 1}
+    ]
+}

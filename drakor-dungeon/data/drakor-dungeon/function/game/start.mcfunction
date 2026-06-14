@@ -2,9 +2,13 @@
 scoreboard players set @a planet 1
 # real
 scoreboard players set @a lives 1
+execute as @a store result score @s c1 run clear @s *[custom_data~{1up:1b}]
+scoreboard players operation @s lives += @s c1
 scoreboard players set @a gr 1
 scoreboard objectives setdisplay sidebar score
 difficulty hard
+
+
 
 # planet select
 execute as @a[scores={planet=1}] in drakor-dungeon:neagi run function drakor-dungeon:game/start-planet

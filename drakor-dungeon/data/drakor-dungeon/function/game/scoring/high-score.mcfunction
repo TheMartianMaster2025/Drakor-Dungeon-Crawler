@@ -1,4 +1,5 @@
 # sentinel
+scoreboard players set $temp_highest c1 0
 scoreboard players set $temp_highest c2 0
 
 # save the old ones
@@ -24,7 +25,8 @@ execute if score $temp_highest c2 matches 1 unless score #3 highScore = $3 highS
 
 
 # if there are unhandled players, loop
-execute if entity @p[tag=!high] run function drakor-dungeon:game/scoring/high-score
+# right now all players share score, meaning there will never be another
+#execute if entity @p[tag=!high] run function drakor-dungeon:game/scoring/high-score
 
 # if no unhandled players, remove high
 tag @a remove high

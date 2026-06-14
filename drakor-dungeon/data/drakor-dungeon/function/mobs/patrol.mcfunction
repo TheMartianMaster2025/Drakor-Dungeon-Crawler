@@ -1,1 +1,2 @@
-execute in drakor-dungeon:neagi as @p[distance=0..] positioned as @r run function drakor-dungeon:mobs/neagi/patrol
+execute as @a run scoreboard players operation @s cd4 = @s difficulty
+execute in drakor-dungeon:neagi as @p[distance=0..,scores={planet=1,gr=1}] positioned as @a run function drakor-dungeon:mobs/neagi/patrol
