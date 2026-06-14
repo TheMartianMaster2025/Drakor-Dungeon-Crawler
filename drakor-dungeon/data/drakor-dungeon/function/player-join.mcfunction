@@ -23,7 +23,7 @@ scoreboard players set @s stat.str 1
 spawnpoint @s 0 300 0
 tp @s 0 300 0
 
-give @s arrow[custom_data={nanotes:1b,permanent:1b},custom_name="Nanotes"] 30
+give @s arrow[custom_data={nanote:1b,permanent:1b},custom_name="Nanotes"] 30
 
 # load spawn
 execute if data storage drakor:flag loaded.spawn run return fail
