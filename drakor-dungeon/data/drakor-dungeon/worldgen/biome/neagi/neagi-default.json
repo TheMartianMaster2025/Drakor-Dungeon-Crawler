@@ -2,8 +2,8 @@
     "attributes": {
         "minecraft:visual/cloud_color": 7908464,
         "minecraft:visual/sky_light_color": 13565364,
-        "minecraft:visual/fog_start_distance": 2,
-        "minecraft:visual/fog_end_distance": 8,
+        "minecraft:visual/fog_start_distance": 110,
+        "minecraft:visual/fog_end_distance": 140,
         "minecraft:visual/fog_color": 2655036,
         "minecraft:visual/water_fog_color": 7470848,
         "minecraft:audio/background_music": {
