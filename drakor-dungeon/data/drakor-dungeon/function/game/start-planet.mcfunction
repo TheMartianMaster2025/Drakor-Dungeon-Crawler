@@ -1,4 +1,4 @@
-spreadplayers ~ ~ 0 10000 true @a[scores={planet=1}]
+spreadplayers ~ ~ 0 10000 true @r[scores={planet=1}]
 
 tag @r add dropper
 execute positioned as @p[tag=dropper] run forceload add ~ ~

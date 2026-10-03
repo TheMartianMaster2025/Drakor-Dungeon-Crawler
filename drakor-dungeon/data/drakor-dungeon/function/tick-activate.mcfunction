@@ -9,8 +9,9 @@ effect give @a saturation infinite 255 true
 team join malf @e[tag=team_malf,team=]
 
 # custom model enemies
-execute as @e[tag=blockMount] positioned as @s run data modify entity @s Rotation set from entity @n[tag=mount] Rotation
+#execute as @e[tag=blockMount] positioned as @s run data modify entity @s Rotation set from entity @n[tag=mount] Rotation
 execute as @e[tag=blockMount] positioned as @s unless entity @n[tag=mount,distance=..3] run kill @s
+execute positioned as @a as @e[tag=blockMount,limit=5,sort=nearest] positioned as @s run data modify entity @s Rotation set from entity @n[tag=mount] Rotation
 
 #execute in drakor-dungeon:neagi as @e[distance=0..,type=#drakor-dungeon:neagi-convertable,tag=!handled] run function drakor-dungeon:mobs/neagi/_handle
 
