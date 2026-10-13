@@ -4,8 +4,11 @@
             "entries": [{
                 "type": "item",
                 "name": "white_dye",
-                "functions": [
-                    {"function": "set_components",
+                "modifier": {
+                    "type": "sequence",
+                    "functions":  
+                [
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -20,14 +23,17 @@
                         "custom_name":"SMG",
                         "custom_model_data":{"strings":["smg-main"]}
                     }}
-                ],
+                ]},
                 "weight": 2
             },
             {
                 "type": "item",
                 "name": "white_dye",
-                "functions": [
-                    {"function": "set_components",
+                "modifier": {
+                    "type": "sequence",
+                    "functions":  
+                [
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -42,14 +48,16 @@
                         "custom_name":"Shotgun",
                         "custom_model_data":{"strings":["shotgun-main"]}
                     }}
-                ],
+                ]},
                 "weight": 2
             },
         {
                 "type": "item",
                 "name": "white_dye",
+                "modifier": {
+                "type": "sequence",
                 "functions": [
-                    {"function": "set_components",
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -64,7 +72,7 @@
                         "custom_name":{"text": "Rocket Launcher"},
                         "custom_model_data":{"strings":["rocket-main"]}
                     }}
-                ],
+                ]},
                 "weight": 1
             }
         ],

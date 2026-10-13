@@ -4,8 +4,10 @@
             "entries": [{
                 "type": "item",
                 "name": "purple_dye",
+                "modifier": {
+                "type": "sequence",
                 "functions": [
-                    {"function": "set_components",
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -20,14 +22,16 @@
                         "custom_name":{"text": "SMG","color":"light_purple"},
                         "custom_model_data":{"strings":["smg-main"]}
                     }}
-                ],
+                ]},
                 "weight": 1
             },
             {
                 "type": "item",
                 "name": "purple_dye",
-                "functions": [
-                    {"function": "set_components",
+                    "modifier": {
+                    "type": "sequence",
+                    "functions": [
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -42,14 +46,16 @@
                         "custom_name":{"text": "Shotgun","color": "light_purple"},
                         "custom_model_data":{"strings":["shotgun-main"]}
                     }}
-                ],
+                ]},
                 "weight": 1
             },
         {
                 "type": "item",
                 "name": "purple_dye",
+                "modifier": {
+                "type": "sequence",
                 "functions": [
-                    {"function": "set_components",
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -64,7 +70,7 @@
                         "custom_name":{"text": "Rocket Launcher","color": "light_purple"},
                         "custom_model_data":{"strings":["rocket-main"]}
                     }}
-                ],
+                ]},
                 "weight": 1
             }],
             "rolls": 3

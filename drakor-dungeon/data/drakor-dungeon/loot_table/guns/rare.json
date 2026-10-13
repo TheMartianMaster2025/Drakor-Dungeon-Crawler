@@ -3,9 +3,11 @@
         {
             "entries": [{
                 "type": "item",
-                "name": "blue_dye",
+                "name": "blue_dye",           
+                    "modifier": {
+                    "type": "sequence",
                 "functions": [
-                    {"function": "set_components",
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -20,13 +22,14 @@
                         "custom_name":{"text":"SMG","color": "blue"},
                         "custom_model_data":{"strings":["smg-main"]}
                     }}
-                ]
+                ]}
             },
             {
                 "type": "item",
                 "name": "blue_dye",
-                "functions": [
-                    {"function": "set_components",
+                "modifier": {
+                    "type": "sequence",                "functions": [
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -41,13 +44,14 @@
                         "custom_name":{"text":"Shotgun","color": "blue"},
                         "custom_model_data":{"strings":["shotgun-main"]}
                     }}
-                ]
+                ]}
             },
                 {
                 "type": "item",
-                "name": "blue_dye",
+                "name": "blue_dye",                "modifier": {
+                    "type": "sequence",
                 "functions": [
-                    {"function": "set_components",
+                    {"type": "set_components",
                     "components": {
                         "custom_data": {"isGun":true,
                         "gun":{
@@ -62,8 +66,8 @@
                         "custom_name":{"text": "Rocket Launcher","color": "blue"},
                         "custom_model_data":{"strings":["rocket-main"]}
                     }}
-                ]
-            }],
+                ]}
+        }],
             "rolls": 2
         }
     ]

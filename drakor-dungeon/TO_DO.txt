@@ -11,7 +11,7 @@ Priorities:
     Enemies
         Patrols spawn surrounding player/
             Make them localize!
-                Markermaxxing- outposts on map
+                Markermaxxing- outposts on map/
         Boss
         Malf Abilities
     Planet

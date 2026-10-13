@@ -32,7 +32,7 @@ function drakor-dungeon:utility/damage-item
 execute store result score @s c2 run data get entity @s SelectedItem.components."minecraft:max_damage"
 execute store result score @s c3 run data get entity @s SelectedItem.components."minecraft:damage"
 scoreboard players operation @s c2 -= @s c3
-execute if score @s c2 matches ..0 run item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"!minecraft:consumable":{}}}
+execute if score @s c2 matches ..0 run item modify entity @s weapon.mainhand {type:"minecraft:set_components",components:{"!minecraft:consumable":{}}}
 execute if score @s c2 matches ..0 run scoreboard players set @s gun-cd 50
 
 # cleanup

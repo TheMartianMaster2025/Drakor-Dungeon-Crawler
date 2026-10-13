@@ -4,10 +4,14 @@
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
-                    "flags": {
-                        "is_sneaking": true
-                    },
-                    "nbt": {"SelectedItem":{"components":{"minecraft:custom_data":{"isAbility":true}}}}
+                    "type":"entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_sneaking": true
+                        },
+                        "minecraft:slots": {"weapon.mainhand":{"components":{"minecraft:custom_data":{"isAbility":true}}}}
+                    }
                 }
             }
         }

@@ -3,7 +3,7 @@ summon villager ~ ~ ~ {Offers:{Recipes:[\
     custom_model_data:{strings:["sustainer-token"]},custom_name:"Sustainer Class"},\
     id:fire_charge,count:5}}\  
     ,\
-    {buy:{components:{custom_data:{nanote:true,permanent:true}},count:20,id:arrow},sell:{components:{custom_data:{1up:1b},\
+    {buy:{components:{custom_data:{nanote:true,permanent:true}},count:20,id:arrow},sell:{components:{custom_data:{"1up":1b},\
     custom_model_data:{strings:["extra-life"]},custom_name:"Extra Life"},\
     id:emerald,count:1}}\  
     ,\

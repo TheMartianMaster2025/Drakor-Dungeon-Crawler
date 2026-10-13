@@ -1,18 +1,26 @@
 {
-    "function": "minecraft:sequence",
+    "type": "minecraft:sequence",
     "functions": [
         {
-            "function": "minecraft:copy_components",
+            "type": "minecraft:copy_components",
             "source": "tool",
             "include": []
         },
         {
-            "function": "minecraft:set_damage",
+            "type": "minecraft:set_damage",
             "damage": {
-                "type": "score",
-                "target": "target_entity",
-                "scale": -0.01,
-                "score": "ammo"
+                "type": "minecraft:mul",
+                "inputs": [
+                    {
+                        "type": "minecraft:from_int",
+                        "input": {
+                            "type": "minecraft:score",
+                            "target": "this",
+                            "score": "ammo"
+                        }
+                    },
+                    0.01
+                ]
             },
             "add": true
         }

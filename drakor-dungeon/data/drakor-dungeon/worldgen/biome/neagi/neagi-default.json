@@ -29,10 +29,6 @@
         "dry_foliage_color": 11380042,
         "grass_color_modifier": "none"
     },
-    "spawners": {
-        "monster": []
-    },
-    "spawn_costs": {},
     "carvers": [],
     "features": []
 }
