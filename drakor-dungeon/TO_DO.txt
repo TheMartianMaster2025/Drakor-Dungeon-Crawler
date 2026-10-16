@@ -20,6 +20,9 @@ Priorities:
     Player
         Armor/Abilities/
 
+10/15 Notes: 
+Guns with no damage cannot hear
+
 
 6/12 NOTES:
 SPECTATOR CAN CAP!!! FIXX!@!!! /

@@ -1,15 +1,26 @@
 {
     "criteria": {
         "requirement": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-            "item": {
-                "predicates": {
-                    "minecraft:custom_data": {"isAbility":true}
-            }
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "isAbility": true
+                        }
+                    }
+                },
+                "player": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_sneaking": false
+                        }
+                    }
+                }
             }
         }
-    }
     },
     "rewards": {
         "function": "drakor-dungeon:class/_split-call"

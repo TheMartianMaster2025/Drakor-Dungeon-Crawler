@@ -1,18 +1,24 @@
 {
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:using_item",
             "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "isGun": true
+                        }
+                    }
+                },
                 "player": {
                     "type": "entity_properties",
-                    "entity":"this",
-                    "predicate":{ 
-                    "flags": {
-                        "is_sneaking": true
-                    },
-                    "slots":{"weapon.mainhand":{"components":{"custom_data":{"isGun":true}}}}
+                    "entity": "this",
+                    "predicate": {
+                        "flags": {
+                            "is_sneaking": true
+                        }
+                    }
                 }
-            }   
             }
         }
     },

@@ -27,5 +27,5 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{abt
 
 scoreboard players add @s cd2 1
 execute if score @s cd1 matches 0 unless score @s cd2 matches 2.. run function drakor-dungeon:class/swap
-execute if score @s cd1 matches 0 if score @s cd2 matches 2.. run item replace entity @s weapon.mainhand with purple_dye[consumable={consume_seconds:999999999,animation:"none"},food={nutrition:0,saturation:0,can_always_eat:true}, \
+execute if score @s cd1 matches 0 if score @s cd2 matches 2.. run item replace entity @s weapon.mainhand with purple_dye[consumable={consume_seconds:999999999,animation:"none"},use_cooldown={seconds:0.9},max_stack_size=1, \
     custom_data={isAbility:true,abtype:0},custom_name={"text":"Select Ability"},item_model=carrot_on_a_stick]

@@ -1,7 +1,7 @@
 
 forceload add ~ ~
 $summon marker ~ ~ ~ {CustomName:"$(UUID0).$(UUID1).$(UUID2).$(UUID3).$(slot)",Tags:["reloader","newReload"]}
-
+item modify entity @s weapon.mainhand {type:"minecraft:set_components",components:{"!minecraft:consumable":{}}}
 
 
 playsound entity.copper_golem.no_item_get

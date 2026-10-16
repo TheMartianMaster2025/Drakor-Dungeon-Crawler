@@ -1,1 +1,1 @@
-$item modify entity @s weapon.mainhand {function:"minecraft:set_components",components:{"damage":$(damage)}}
+$item modify entity @s weapon.mainhand {type:"minecraft:set_components",components:{"damage":$(damage)}}
